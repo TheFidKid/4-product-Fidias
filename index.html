@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+<head>
+    <!-- character encoding -->
+    <meta charset="UTF-8">
+    <!-- title tag -->
+    <title>Casa Blanca Restaurant</title>
+    <!-- description -->
+    <meta name="description" content="Fine mexican dining in downtown Andover!"/>
+    <!-- mobile-friendly viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- W3.CSS stylesheet -->
+    <link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- custom style -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Syncopate:700" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="css/slideshow.css">
+
+</head>
+
+<body>
+
+    <!-- top nav, desktop and tablet -->
+    <div class="w3-top">
+        <div class="w3-bar w3-theme">
+            <a href="#home" class="w3-bar-item w3-button">Home</a>
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small">About</a>
+            <a href="#menu" class="w3-bar-item w3-button w3-hide-small">Menu</a>
+            <a href="#drinks" class="w3-bar-item w3-button w3-hide-small">Drinks</a>
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="topNav()">&#9776;</a>
+        </div>
+        <div id="mobileNav" class="w3-bar-block w3-theme-l1 w3-hide w3-hide-large w3-hide-medium">
+            <a href="#about" class="w3-bar-item w3-button">About</a>
+            <a href="#menu" class="w3-bar-item w3-button">Training</a>
+            <a href="#drinks" class="w3-bar-item w3-button">Teams</a>
+        </div>
+    </div>
+    <!-- top nav, mobile -->
+
+    <section class="w3-padding-32" id="home">
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="img/Slideshow_1.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="img/Slideshow_2.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="img/Slideshow_3.jpeg" style="width:100%">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+
+        <!-- Container (About Section) -->
+
+        <section id="about">
+
+            <div class="w3-row w3-container">
+                <h1>Hello</h1>
+            </div>
+                <div class="w3-row">
+                <div class="w3-third">
+                    <a href="#modal1">
+
+                <!-- Trigger/Open The Modal -->
+
+            <div class="w3-card w3-hover-shadow">
+                <div class="container w3-center w3-jumbo w3-text-theme2">
+                    <i class="fa fa-book"></i>
+                </div>
+                <div class="w3-container w3-center w3-theme2">         
+
+                    <!-- Trigger/Open the Modal -->
+                    <button onclick="document.getElementById('modal2').style.display='block'"
+                                            class="w3-button">Address</button>
+
+                        <!-- The Modal -->
+                        <div id="modal2" class="w3-modal">
+                            <div class="w3-modal-content">
+                                <div class="w3-container">
+                                    <span onclick="document.getElementById('modal2').style.display='none'" 
+                                                      class="w3-button w3-display-topright">&times
+                                    </span>
+                                        <p>Andover ~ 10 Main Street, Andover, MA 01810</p>
+                                        <p>North Andover ~ 1070 Osgood Street, North Andover, MA  01845</p>
+                                        <p>Haverhill ~ 2 Essex Street, Haverhill MA 01830</p>
+                                        <p>Methuen ~ 106 Lowell Blvd, Methuen MA 01844</p>
+                                        <p>North Billerica ~ 99 Chelmsford Road, North Billerica, MA 01862</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    <h3>Location</h3>  
+                </div>
+            </div>
+                        </a>
+
+                </div>
+                    
+
+
+
+
+        <div class="w3-third">
+            <a href="#modal2">
+                <div class="w3-card w3-hover-shadow">
+                    <div class="container w3-center w3-jumbo w3-text-theme2">
+                        <i class="fa fa-users"></i>
+                    </div>
+                        <div class="w3-container w3-center w3-theme2">
+
+                        <!-- Trigger/Open the Modal -->
+                        <button onclick="document.getElementById('modal1').style.display='block'"
+                                            class="w3-button">Hours</button>
+
+                        <!-- The Modal -->
+                        <div id="modal1" class="w3-modal">
+                            <div class="w3-modal-content">
+                                <div class="w3-container">
+                                    <span onclick="document.getElementById('modal1').style.display='none'" 
+                                                      class="w3-button w3-display-topright">&times
+                                    </span>
+                                        <p>Sun – Thurs: 11am – 10pm</p>
+                                        <p>Fri – Sat: 11am – 11pm</p>
+                                </div>
+                            </div>  
+                        </div>
+                            <h3>Hours Open</h3>
+                        </div>
+                </div>
+            </a>
+                </div>
+
+        <div class="w3-third">
+            <a href="#modal3">
+                <div class="w3-card w3-hover-shadow">
+                    <div class="container w3-center w3-jumbo w3-text-theme2">
+                        <i class="fa fa-phone-square"></i>
+                    </div>
+                        <div class="w3-container w3-center w3-theme2">
+
+                        <!-- Trigger/Open the Modal -->
+                        <button onclick="document.getElementById('modal3').style.display='block'"
+                                            class="w3-button">Phone Number</button>
+
+                        <!-- The Modal -->
+                        <div id="modal3" class="w3-modal">
+                            <div class="w3-modal-content">
+                                <div class="w3-container">
+                                    <span onclick="document.getElementById('modal3').style.display='none'" 
+                                                      class="w3-button w3-display-topright">&times
+                                    </span>
+                                        <p>Andover ~ Phone: (978) 289-4165 | Fax: (978) 289-4178</p>
+                                        <p>North Andover ~ Phone: (978) 683-1177 | Fax: (978) 683-2114</p>
+                                        <p>Haverhill ~ Phone: (978) 891-3889 | Fax: (978) 891-3759</p>
+                                        <p>Methuen ~ Phone: (978) 688-4672 | Fax: (978) 975-1584</p>
+                                        <p>North Billerica ~ Phone: (978) 262-9030 | Fax: (978) 262-9031</p>
+                                </div>
+                            </div>
+                        </div>
+
+                                    <h3>Contact</h3>  
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+                </div>
+            </section>
+
+            <!-- Container (Training Section) -->
+
+            <section id="menu">
+
+                <div class="w3-row w3-container">
+                    <h1>Menu</h1>
+                </div>
+
+                <div class="w3-row">
+                    <div class="w3-half">
+                        <div class="w3-card">
+                            <img src="img/board-bunch-cooking-349609.jpg" class="w3-image" alt="Soccer Team Training">
+                        </div>
+                    </div>
+
+                    <div class="w3-half">   
+
+                        <button onclick="accordion('trainingAccordian1')" class="w3-button w3-block w3-left-align w3-theme w3-border">
+                        Starters, Soups and Salads</button>
+
+                        <div id="trainingAccordian1" class="w3-container w3-hide">
+                            <h3>Starters</h3>
+                            <h4>7 Casa Wings</h4>
+                            <p>Spicy Wings ~ $12.50</p>
+                            <h4>Diablo Wings</h4>
+                            <p>Mild/Spicy wings</p>
+                            <p>8 pieces ~ $8.25</p>
+                            <p>16 pieces ~ $15.45</p>
+                            <h4>Taquito Bites</h4>
+                            <p>Rolled corn tortillas with shredded chicken or barbacoa ~ $8.50</p>
+                            <h4>Fiesta Platter</h4>
+                            <p>Nachos, mini quesadillas, taquito bites, baby chimichangas and two crispy wings ~ $13.50</p>
+                            <h4>Guacamole Fresco</h4>
+                            <p>Guacamole dip with Mexican cheese ~ $9.75</p>
+                            <h4>Queso Fundido</h4>
+                            <p>Melted oaxaca with spicy mexican sausage ~ $7.50</p>
+                            <h4>Nachos Supreme</h4>
+                            <p>Nachos with a choice of chicken, beef or barbacoa ~ $9.50</p>
+                            <h4>Cheese Dip</h4>
+                            <p>Spicy Mexican cheese dip ~ $6.50</p>
+                            <h4>4 Baby Chimichangas</h4>
+                            <p>Mini chimichangas with chicken and jack cheese ~ $8.25</p>
+                            <h4>Tex-Mex Eggrolls</h4>
+                            <p>Spicy chicken, corn, black beans, peppers, onions and melted cheese ~ $10.95</p>
+                            <h3>Soups</h3>
+                            <h4>Sopa de Albondigas</h4>
+                            <p>Mexican soup with pork and beef meatballs ~ $5.50</p>
+                            <h4>Sopa de Tortilla</h4>
+                            <p>Mexican soup with grilled chicken, tortilla strips and melted jack cheese ~ $5.50</p>
+                            <h4>Sopa de Camaron</h4>
+                            <p>Mexican shrimp soup with zucchini, carrots, cilantro and onions ~ $6.50</p>
+                            <h3>Salads</h3>
+                            <h4>Fajita Salad</h4>
+                            <p>Grilled chicken, steak or shrimp with cheese and tomatoes</p>
+                            <p>Chicken ~ $10.80</p>
+                            <p>Steak ~ $11.25</p>
+                            <p>Shrimp ~ $12.95</p>
+                            <h4>Ranchero Avocado  Salad</h4>
+                            <p>Grilled chicken, steak or shrimp with cheese, tomatoes, avocados, beans and ranch dressing</p>
+                            <p>Chicken ~ $10.80</p>
+                            <p>Steak ~ $11.25</p>
+                            <p>Shrimp ~ $12.95</p>
+                            <h4>Taco Salad</h4>
+                            <p>Fresh lettuce with beef, shredded chicken, barbacoa or pork Chile Verde, served in a taco shell topped with cheese ~ $9.50</p>
+                            <h4>Vallarta Salad</h4>
+                            <p>Grilled tilapia fillet, salmon or grilled shrimp with red onions, fresh mango and cucumber</p>
+                            <p>Shrimp ~ $12.95</p>
+                            <p>Tilapia ~ $11.80</p>
+                            <p>Salmon ~ $12.95</p>
+                            
+                        </div>
+
+                        <button onclick="accordion('passing')" class="w3-button w3-block w3-left-align w3-theme w3-border">
+                            Main Courses</button>
+
+                        <div id="passing" class="w3-container w3-hide">
+                            <h3>Main Courses</h3>
+                            <h3>Burritos</h3>
+                            <p>Choice of shredded chicken, ground beef or barbacoa with rice and beans and topped with enchilada style sauce, tomatoes, onions, Ranchero cheese, lettuce and sour cream ~ $8.75</p>
+                            <h4>Santa Fe Burrito</h4>
+                            <p>Pork Chile Verde or pork Chile Rojo, stuffed with rice, refried beans and with jack cheese inside ~ $8.75</p>
+                            <h4>Fiesta Burrito</h4>
+                            <p>Choice of shredded chicken, ground beef or barbacoa, stuffed with white rice, black beans and pico de gallo ~ $8.75</p>
+                            <h4>California Wrap Burrito</h4>
+                            <p>Choice of grilled chicken or steak with refried beans, rice, guacamole, Cheddar cheese, sour cream and pico de gallo all wrapped inside ~ $9.75</p>
+                            <h4>Pacifico Burrito</h4>
+                            <p>Special blend of shrimp, crab, fish and scallops garnished with avocado slices ~ $10.25</p>
+                            <h4>Fajita Burrito</h4>
+                            <p>Grilled steak or chicken, Fajita style, topped with special burrito sauce ~ $9.75</p>
+                            <h3>Enchiladas</h3>
+                            <h4>Casa Blanca Enchiladas</h4>
+                            <p>Two enchiladas made with your choice of shredded chicken, ground beef, barbacoa or pork Chile Verde ~ 8.95</p>
+                            <h4>Casa Trio Enchiladas</h4>
+                            <p>Combination of three enchiladas: shredded chicken, Jack cheese and barbacoa, garnished with Mexican coleslaw ~ $9.75</p>
+                            <h4>Mazatlan Enchiladas</h4>
+                            <p>Two enchiladas filled with shrimo, crab, scallops, fish and fresh vegetables ~ $10.25</p>
+                            <h3>Chimichangas</h3>
+                            <h4>Baja Chimichanga</h4>
+                            <p> Your choice of shredded chicken, ground beef or barbacoa, topped with red enchilada sauce and cheddar cheese ~ $8.25</p>
+                            <h4>Mexicali Chimichanga</h4>
+                            <p>Choice of shredded chicken, ground beef or barbacoa, topped with chile con queso sause ~ $8.52</p>
+                            <h4>Cancun Chimichanga</h4>
+                            <p>Filled with shrimp, crab, scallops, fish and vegetables, topped with green tomatillo sause and jack cheese ~ $10.25</p>
+                            <h3>Combos</h3>
+                            <h4>Choose One</h4>
+                            <p>Enchilada, Chimichanga, Chile Relleno, Tostada, Burrito, Tamale, Taco ~ $7.95</p>
+                            <h4>Choose Two</h4>
+                            <p>Enchilada, Chimichanga, Chile Relleno, Tostada, Burrito, Tamale, Taco ~ $8.95</p>
+                            <h4>Choose Three</h4>
+                            <p>Enchilada, Chimichanga, Chile Relleno, Tostada, Burrito, Tamale, Taco ~ $10.45</p>
+                            <h3>Quesadillas</h3>
+                            <h4>Ranchera Quesadilla</h4>
+                            <p>Choice of chicken, chorizo, ground beef, vegetarian style or barbacoa ~ $7.99</p>
+                            <h4>Grilled Quesadilla</h4>
+                            <p>Choice of grilled chicken, steak or shrimp</p>
+                            <p>Chicken/Steak ~ $8.45</p>
+                            <p>Shrimp ~ $9.99</p>
+                            <h4>Fajita Quesadilla</h4>
+                            <p>Grilled chicken or steak, Fajita style, with sautéed bell peppers and onions</p>
+                            <p>Chicken/Steak ~ $8.49</p>
+                            <p>Shrimp ~ $9.99</p>
+                            <h4>Southwestern Quesadilla</h4>
+                            <p>Melted cheddar and jack cheese, grilled BBQ chicken, green peppers, onions and black beans ~ $8.49</p>
+                            <h3>Egg Dishes</h3>
+                            <h4>Huevos Rancheros</h4>
+                            <p>Three eggs, any style, topped with cheese and Ranchero sauce ~ $7.75</p>
+                            <h4>Chorizo Con Huevos</h4>
+                            <p>Ground Mexican pork sausage mixed with eggs ~ $8.25</p>
+                            <h3>Sandwiches and Burgers</h3>
+                            <h4>BBQ chicken Sandwich</h4>
+                            <p>Grilled BBQ chicken breast topped with Jack cheese, onions and bacon ~ $7.99</p>
+                            <h4>Chicken Torta</h4>
+                            <p>Charbroiled chicken breast with Monterey Jack cheese and avocado slices ~ $7.99</p>
+                            <h4>Fajita Melt</h4>
+                            <p>Grilled steak or chicken, Fajita style, with Jack cheese, onions and bell peppers ~ $7.99</p>
+                            <h4>Turkey Avocado Club</h4>
+                            <p>Sliced turkey breast, avocado and crisp bacon ~ $7.99</p>
+                            <h4>BBQ Baja Burger</h4>
+                            <p>8 oz. Black Angus beef with Cheddar cheese, crisp bacon and BBQ sauce ~ $7.99</p>
+                            <h3>Vegetarian</h3>
+                            <h4>Burrito Verde</h4>
+                            <p>A flour tortilla with rice, black beans and grilled mixed vegetables. Topped with lettuce, green tomatillo sauce, tomatoes and Ranchero cheese ~ $8.25</p>
+                            <h4>Spinach Enchiladas</h4>
+                            <p>Two enchiladas with spinach and cheese or mixed vegetables and cheese on top ~ $8.25</p>
+                            <h4>Veggie Quesadilla</h4>
+                            <p>Spinach or mixed vegetable quesadilla with Jack cheese ~ $7.99</p>
+                            <h4>Veggie Fiesta</h4>
+                            <p>One spinach enchilada, one chile relleno and one cheese enchilada ~ $8.75</p>
+                        </div>
+
+                        <button onclick="accordion('positioning')" class="w3-button w3-block w3-left-align w3-theme w3-border">
+                            Desserts</button>
+
+                        <div id="positioning" class="w3-container w3-hide">
+                            <h3>Desserts</h3>
+                            <h4>Flan</h4>
+                            <p>Creamy custard made with egg, milk, coffee liqueur and caramel, glazed with a light caramel topping ~ $5.50</p>
+                            <h4>Chimichanga Dulce</h4>
+                            <p>Choice of apple slices or cheesecake, stuffed into a flour tortilla that has been fried until crispy. Topped with caramel sauce and cinnamon sugar ~ $5.50</p>
+                            <h4>Churros</h4>
+                            <p>A crunchy traditional Mexican dessert made of fried dough and dusted with cinnamon sugar ~ $5.50</p>
+                            <h4>Sopapillas</h4>
+                            <p>A warm traditional Mexican pastry dusted with cinnamon sugar and drizzled with honey ~ $5.50</p>
+                            <h4>Fried Ice Cream</h4>
+                            <p>Crispy coated creamy vanilla ice cream drizzled with cinnamon sugar, honey, chocolate sauce and garnished with whipped cream ~ $5.50</p>
+                            <h4>Chocolatazo</h4>
+                            <p>A delicious and tempting chocolate dish ~ $5.50</p>
+                        </div>
+
+                        <button onclick="accordion('defense')" class="w3-button w3-block w3-left-align w3-theme w3-border">
+                            Kids Menu</button>
+
+                        <div id="defense" class="w3-container w3-hide">
+                            <h3>Kids Menu</h3>
+                            <h4>Beef Taco</h4>
+                            <h4>Cheese Enchilada</h4>
+                            <h4>Grilled Cheese</h4>
+                            <h4>Cheese Burger</h4>
+                            <h4>Bean and Cheese Burrito</h4>
+                            <h4>Cheese Quesadilla</h4>
+                            <h4>Chicken Tenders</h4>
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Container (Teams Section) -->
+            <section id="drinks">
+
+                <div class="w3-row w3-container">
+                    <h1>Drinks</h1>
+                </div>
+
+                <div class="w3-row">
+                    <div class="w3-half">
+                        <div class="w3-card">
+                            <img src="img/alcohol-beverage-black-background-1028637.jpg" class="w3-image" alt="Drinks">
+                        </div>
+                    </div>
+                    <div class="w3-half">
+
+                        <div class="w3-bar w3-theme">
+                            <button class="w3-bar-item w3-button" onclick="openTab('1')">Margaritas</button>
+                            <button class="w3-bar-item w3-button" onclick="openTab('2')">Tequilas</button>
+                            <button class="w3-bar-item w3-button" onclick="openTab('3')">Cocktails</button>
+                            <button class="w3-bar-item w3-button" onclick="openTab('4')">Martinis</button>
+                            <button class="w3-bar-item w3-button" onclick="openTab('5')">Beer</button>
+                            <button class="w3-bar-item w3-button" onclick="openTab('6')">Wines</button>
+                            <button class="w3-bar-item w3-button" onclick="openTab('7')">Beverages and Coffee</button>
+                            
+
+                        </div>
+
+                        <div id="1" class="tab">
+                            <div class="w3-container">
+                                <h2>Margaritas</h2>
+                                <h4>House Margarita</h4>
+                                <p>Served on the rocks with gold tequila, sweet and sour and orange liqueur ~ $7.50</p>
+                                <h4>Blue Cielo Margarita</h4>
+                                <p>A delightfully different margarita made with gold tequila, sweet and sour, orange liqueur and Blue Curaçao. Served on the rocks ~ $9.50</p>
+                                <h4>Rosarita Margarita</h4>
+                                <p>Gold tequila and cranberry juice with orange liqueur and fresh lime juice ~ $9.50</p>
+                                <h4>Black Jack Margarita</h4>
+                                <p>Try your hand with our deliciously dark margarita. Made with gold tequila, Chambord liqueur and our special sour mix ~ $9.50</p>
+                                <h4>Casa Blanca Margarita</h4>
+                                <p>The top of the line Jose Cuervo Gold tequila with orange liqueur and margarita mix. Served on the rocks with a float of extra fine orange liqueur ~ $9.50</p>
+                                <h4>El Presidente Margarita</h4>
+                                <p>A hand shaken mixture of fresh-squeezed lime juice, premium orange liqueur and 1800 Tequila Reposado. Served on the rocks, with salt and a little something we think you'll enjoy ~ $10.00</p>
+                                <h4>Jalapeño Berry Margarita</h4>
+                                <p>1800 SiIver tequila, orange liqueur, raspberry flavor, lime juice and jalapeño juice ~ $10.00</p>
+                                <h4>Skinny "La Flaca" Margarita</h4>
+                                <p>1800 Tequila Añejo, orange liqueur and fresh squeezed lime juice, hand shaken and served on the rocks with a salted rim ~ $11.50</p>
+                            </div>
+
+                        </div>
+
+                        <div id="2" class="tab" style="display:none">
+                            <h2>Tequilas</h2>
+                            <h4>Blanco</h4>
+                            <p>A tequila rarely aged more than a couple of weeks, making it the purest form of tequila ~ $8.00</p>
+                            <h4>Reposado</h4>
+                            <p>Reposado means "rested" in Spanish, and reposados rest anywhere from two months to a year before they are bottled. Reposados take on the gold hue from the barrels in which they are aged ~ $10.00</p>
+                            <h4>Añejo</h4>
+                            <p>Añejo tequilas are aged from one to three years, and are considered the best type of tequila for sipping because of their smoother flavor ~ $11.00</p>
+                        </div>
+
+                        <div id="3" class="tab" style="display:none">
+                            <h2>Cocktails</h2>
+                            <h4>Sex on the Beach</h4>
+                            <p>Mixture of peach schnapps, Ketel One vodka, cranberry juice and orange juice ~ $9.00</p>
+                            <h4>Long Island Iced Tea</h4>
+                            <p>A combination of Absolut Citron vodka, Bacardi rum, Tanqueray gin, Jose Cuervo tequila, lime juice, sweet and sour mix and a splash of Pepsi ~ $9.00</p>
+                            <h4>Hawaiian Sea Breeze</h4>
+                            <p>A colorful mixture of Ketel One vodka, pineapple juice and cranberry juice ~ $9.00</p>
+                            <h4>Mojito</h4>
+                            <p>Our very own family recipe. Bacardi rum, crushed mint leaves, fresh lime juice, premium orange liqueur and Sierra Mist ~ $9.00</p>
+                            <h4>Mojito Tequila</h4>
+                            <p>Mix of 1800 Tequila Silver, orange liqueur, fresh lime, crushed mint leaves and a splash of Sierra Mist ~ $9.00</p>
+                            <h4>Bahama Mama</h4>
+                            <p>Malibu rum, cranberry juice, orange juice, pineapple juice and grenadine ~ $9.00</p>
+                            <h4>Piña Colada</h4>
+                            <p>A traditional Caribbean drink made with Malibu rum, coconut crème and pineapple juice blended to perfection ~ $9.00</p>
+                            <h4>Strawberry Colada</h4>
+                            <p>A piña colada but with strawberry puree ~ $9.00</p>
+                            <h4>Crystal Ball</h4>
+                            <p>Southern Comfort, Bacardi rum, peach schnapps, melon liqueur, orange juice, pineapple juice, cranberry juice and a float of Bacardi 151 ~ $9.00</p>
+                            <h4>Miami Slammer</h4>
+                            <p>Malibu rum, Blue Curaçao, orange juice, pineapple juice and a float of Myers's Rum ~ $9.00</p>
+                            <h4>La Paloma</h4>
+                            <p>Hornitos tequila, grapefruit soda, spritz of club soda, lime juice and pinch of salt ~ $9.00</p>
+                            <h4>Charro Negro</h4>
+                            <p>Hornitos tequila, club soda, Pepsi Cola and a splash of lime juice ~ $9.00</p>
+                            <h4>Sangria</h4>
+                            <p>A delightful mix of Cabernet Sauvignon, Pinot Grigio, Cointreau, orange and pineapple juice ~ $9.00</p>
+                            <h4>Tropical Toucan</h4>
+                            <p>A colorful and fruity combination of Ketel One vodka, peach schnapps, melon liqueur, Chambord, orange juice and pineapple juice ~ $9.00</p>
+                            <h4>Mudslide</h4>
+                            <p>Made with vanilla ice cream and chocolate syrup along with vodka, Kahlúa coffee liqueur and Bailey's Irish Cream to give it an extra kick ~ $9.00</p>
+                        </div>
+
+                        <div id="4" class="tab" style="display:none">
+                            <h2>Martinis</h2>
+                            <h4>Apple</h4>
+                            <p>Absolut vodka and Sour Apple Pucker schnapps ~ $9.00</p>
+                            <h4>Granada</h4>
+                            <p>Ketel One vodka, Triple Sec and pomegranate juice ~ $9.00</p>
+                            <h4>Cosmotini</h4>
+                            <p>Stoli vodka, triple sec, cranberry juice and lime juice ~ $9.00</p>
+                            <h4>Tommy</h4>
+                            <p>Absolut vodka, Baileys, butterscotch liqueur, Kahlúa and light cream ~ $9.00</p>
+                            <h4>Chocolate Godiva</h4>
+                            <p>Chocolate liqueur, crème de cacao, Stoli vodka and half-and-half ~ $9.00</p>
+                            <h4>Dirty</h4>
+                            <p>Ketel One vodka, dry vermouth, olive juice and three olives ~ $9.00</p>
+                        </div>
+
+                        <div id="5" class="tab" style="display:none">
+                            <h2>Beer</h2>
+                            <h4>Domestic</h4>
+                            <p>Sam Adams, Sam Light ~ $4.75</p>
+                            <p>Budweiser, Bud Light, Coors Light, Miller Lite, Michelob Ultra, O'Douls ~ $3.75</p>
+                            <h4>Draft</h4>
+                            <p>Bud Light, Coors Light</p>
+                            <p>16 oz ~ $3.50</p>
+                            <p>22 oz ~ $5.00</p>
+                            <h4>Imported</h4>
+                            <p>Corona, Corona Light, Pacifico, Tecate, Negra Modelo, Modelo Especial, Sol, Bohemia, Heineken, Heineken Light, Amstel Light ~ $4.75</p>
+                            <h4>Draft</h4>
+                            <p>Blue Moon, Dos Equis, Sam Adams Seasonal, Harpoon IPA</p>
+                            <p>16 oz ~ $5.00</p>
+                            <p>22 oz ~ $6.50</p>
+                            <h4>Buckets - Mix and Match</h4>
+                            <p>5 beers ~ $23.75</p>
+                        </div>
+                        
+                        <div id="6" class="tab" style="display:none">
+                            <h2>Wines</h2>
+                            <h4>Reds</h4>
+                            <h5>Robert Mondavi Cabernet Sauvignon, California</h5>
+                            <p>8 oz ~ $7.00</p>
+                            <p>750 ml Bottle ~ $28.00</p>
+                            <h5>Estancia Merlot, California</h5>
+                            <p>8 oz ~ $7.00</p>
+                            <p>750 ml Bottle ~ $32.00</p>
+                            <h5>Mark West Pinot Noir, California</h5>
+                            <p>8 oz ~ $8.00</p>
+                            <p>750 ml Bottle ~ $28.00</p>
+                            <h5>Santa Julia Malbec, Argentina</h5>
+                            <p>8 oz ~ $7.00</p>
+                            <p>750 ml Bottle ~ $28.00</p>
+                            <h4>Whites</h4>
+                            <h5>Clos Du Bois Chardonnay, California</h5>
+                            <p>8 oz ~ $8.00</p>
+                            <p>750 ml Bottle ~ $32.00</p>
+                            <h5>Mezzacorona Pinot Grigio, Italy</h5>
+                            <p>8 oz ~ $7.00</p>
+                            <p>750 ml Bottle ~ $28.00</p>
+                            <h5>Monkey Bay Sauvignon Blanc, New Zealand</h5>
+                            <p>8 oz ~ $7.00</p>
+                            <p>750 ml Bottle ~ $28.00</p>
+                            <h5>Pacific Rim Riesling, Washington</h5>
+                            <p>8 oz ~ $7.00</p>
+                            <p>750 ml Bottle ~ $28.00</p>
+                            <h4>Blush</h4>
+                            <h5>Beringer White Zinfandel, California</h5>
+                            <p>8 oz ~ $7.00</p>
+                            <p>750 ml Bottle ~ $28.00</p>
+                            <h4>Sparkling</h4>
+                            <h5>Chloe Prosecco, Italy</h5>
+                            <p>8 oz ~ $8.00</p>
+                            <p>750 ml Bottle ~ $32.00</p>
+                            <h4>Sangria</h4>
+                            <p>A delightful mix of Cabernet Sauvignon, Pinot Grigio, Cointreau, orange and pineapple juice</p>
+                        </div>
+                        
+                        <div id="7" class="tab" style="display:none">
+                            <h2>Beverages and Coffee</h2>
+                            <h3>Coffee</h3>
+                            <h4>Mexican Coffee</h4>
+                            <p>Tequila, Kahlúa, and fresh hot coffee. Topped with whipped cream and cinnamon sugar</p>
+                            <h4>B-52</h4>
+                            <p>Coffee Grand Marnier, Kahlúa, Baileys Irish Cream and fresh hot coffee, topped with whipped cream and cinnamon sugar</p>
+                            <h4>Irish Coffee</h4>
+                            <p>Jameson Irish Whiskey, Baileys Irish Cream and fresh hot coffee, topped with whipped cream and cinnamon sugar</p>
+                            <h4>Spanish Coffee</h4>
+                            <p>Presidente Brandy, Grand Marnier, Kahlúa and fresh hot coffee, topped with whipped cream and cinnamon sugar</p>
+                            <h3>Beverages</h3>
+                            <h4>Juice</h4>
+                            <p>Orange, apple, pineapple, grapefruit and cranberry juice ~ $3.00</p>
+                            <h4>Jarritos</h4>
+                            <p>Flavored Mexican soda. Ask server for available flavors ~ $4.00</p>
+                            <h4>Soda</h4>
+                            <p>Pepsi, Diet Pepsi, Sierra Mist, Mug Root Beer, Orange Slice, Pink Lemonade ~ $3.00</p>
+                            <h4>Non-Alcoholic Margaritas</h4>
+                            <p>Banana, mango, peach, raspberry, strawberry, strawberry banana ~ $5.00</p>
+                            <h4>Other Drinks</h4>
+                            <p>Milk, chocolate milk, coffee, hot tea, iced tea, raspberry iced tea ~ $2.75</p>
+                            <h4>Non-Alcoholic Drinks</h4>
+                            <p>Shirley Temple, Roy Rogers, Arnold Palmer iced tea ~ $2.75</p>
+                            <h4>Water</h4>
+                            <p>Saratoga spring water, Saratoga sparkling water ~ $4.00</p>
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Javascript -->
+
+            <script src="js/topNav.js"></script>
+            <script src="js/accordion.js"></script>
+            <script src="js/tabs.js"></script>
+            <script src="js/slideshow.js"></script>
+            <script src="js/modal.js"></script>
+            
+</body>
+
+</html>
